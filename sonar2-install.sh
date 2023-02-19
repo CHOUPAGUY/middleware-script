@@ -4,6 +4,9 @@
 #Date: 02/19/2023
 #Description: Script to install sonarqube on CentOS7
 
+# Become user vagrant
+su - vagrant -p vagrant
+
 echo "We are installing Sonarqube on CentOS7"
 
 #Java 11 installation
